@@ -125,7 +125,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bootstrap-sass (~> 2.0.4.2)
+  bootstrap-sass
   coffee-rails (~> 4.0.0)
   devise
   jbuilder (~> 1.2)
