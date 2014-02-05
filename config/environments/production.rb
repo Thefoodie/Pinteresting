@@ -81,5 +81,4 @@ Pinteresting::Application.configure do
   # required for heroku
   # Note to set this to your actual host
   config.action_mailer.default_url_options = { :host => 'trifit.org' } 
-  config.action_mailer.default_url_options = { :host => 'www.trifit.org' }
 end
