@@ -1,35 +1,3 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-.carousel { z-index: -99; } /* keeps this behind all content */
-.carousel .item {
-    position: fixed; 
-    width: 100%; height: 100%;
-    -webkit-transition: opacity 3s;
-    -moz-transition: opacity 3s;
-    -ms-transition: opacity 3s;
-    -o-transition: opacity 3s;
-    transition: opacity 3s;
- 
-}
-.carousel .one {
-    background: url(http://downloads.xdesktopwallpapers.com/wp-content/uploads/2012/04/Cool%20Vs%20Hot%20Fists%20On%20Black%20Background.jpg);
-    background-size: cover;
-    -moz-background-size: cover;
-}
-.carousel .two {
-    background: url(http://www.wallpaperden.com/pics/cool-ferrari-2.jpg);
-    background-size: cover;
-    -moz-background-size: cover;
-}
-.carousel .three {
-    background: url(http://downloads.xdesktopwallpapers.com/wp-content/uploads/2012/04/Cool%20Vs%20Hot%20Fists%20On%20Black%20Background.jpg);
-    background-size: cover;
-    -moz-background-size: cover;
-}
-.carousel .active.left {
-    left:0;
-    opacity:0;
-    z-index:2;
-}
